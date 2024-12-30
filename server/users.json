@@ -1,4 +1,4 @@
 [
-    {"username": "user1", "password": "password1"},
-    {"username": "user2", "password": "password2"}
+    { "username": "alice", "password": "password123", "publicKey": "", "privateKey": "" },
+    { "username": "bob", "password": "password456", "publicKey": "", "privateKey": "" }
 ]
