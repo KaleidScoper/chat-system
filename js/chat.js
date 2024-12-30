@@ -8,7 +8,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
     const password = document.getElementById("password").value;
 
     // 向后端请求登录
-    const response = await fetch("../server/server.php", {
+    const response = await fetch("https://testgames.me/chat-system/server/server.php", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "login", username, password })
