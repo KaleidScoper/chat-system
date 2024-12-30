@@ -4,7 +4,12 @@
 
 # 使用方法
 
- 克隆本项目至Apache根目录即可立即运行。
+ 1. 克隆本项目至Apache根目录即可立即运行。
+ 2. 已给出公私钥文件，是通过下列命令生成的：
+ ```bash
+ openssl genpkey -algorithm RSA -out server_private_key.pem
+ openssl rsa -pubout -in server_private_key.pem -out server_public_key.pem
+ ```
 
 # 功能
 
